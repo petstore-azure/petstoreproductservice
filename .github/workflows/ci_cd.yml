@@ -1,6 +1,8 @@
 name: CI/CD to Azure Container Registry
 
 env:
+  AZURE_CONTAINER_REGISTRY: petstoracr.azurecr.io
+  AZURE_CONTAINER_REGISTRY_USERNAME: petstoracr
   IMAGE_NAME: petsproductservice
 
 on:
