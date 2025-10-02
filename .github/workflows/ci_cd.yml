@@ -1,9 +1,7 @@
 name: CI/CD to Azure Container Registry
 
 env:
-  AZURE_CONTAINER_REGISTRY: ${{ env.AZURE_CONTAINER_REGISTRY }}
-  AZURE_CONTAINER_REGISTRY_USERNAME: ${{ env.AZURE_CONTAINER_REGISTRY_USERNAME }}
-  IMAGE_NAME: webapp
+  IMAGE_NAME: petsproductservice
 
 on:
   push:
